@@ -7,20 +7,16 @@
        
 </head>
 <body onload="startGame()">
-
-    <h1>ninja</h1>
-   
+    <h1>GIOCO NINJA</h1>
     <div id="canvas-container"></div>
-
     <div class="controls">
-        <button onmousedown="moveup()" onmouseup="clearmove()">UP</button>
+        <button onmousedown="moveup()" onmouseup="NinjaFermo()">UP</button>
         <div class="middle-row">
-            <button onmousedown="moveleft()" onmouseup="clearmove()">LEFT</button>
-            <button onmousedown="moveright()" onmouseup="clearmove()">RIGHT</button>
+            <button onmousedown="moveleft()" onmouseup="NinjaFermo()">LEFT</button>
+            <button onmousedown="moveright()" onmouseup="NinjaFermo()">RIGHT</button>
         </div>
-        <button onmousedown="movedown()" onmouseup="clearmove()">DOWN</button>
+        <button onmousedown="movedown()" onmouseup="NinjaFermo()">DOWN</button>
     </div>
-
     <script src="immagini.js"></script>
     <script src="ninja.js"></script>
 </body>
